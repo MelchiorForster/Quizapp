@@ -1,0 +1,31 @@
+.Profilkarte {
+  background-color: yellowgreen;
+  color: rgb(216, 108, 36);
+  text-align: center;
+  border: solid black;
+  box-shadow: 10px 15px 5px;
+  padding: 10px;
+
+  float: left;
+}
+
+.h1 {
+  font-size: 3rem;
+  color: black;
+  text-align: center;
+}
+
+.Liste {
+  text-align: center;
+  font-size: 2em;
+  padding-top: 50px;
+  margin-top: 50px;
+  max-width: 150px;
+  max-height: 150px;
+}
+
+.Karte {
+}
+.Button {
+  size: 2em;
+}
