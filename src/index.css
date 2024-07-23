@@ -3,29 +3,25 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: linear-gradient(
-    to right,
-    #f6d365,
-    #fda085
-  ); /* Farbverlauf von Gelb zu Orange */
-  color: #383838; /* Dunkelgrau */
+  background-image: linear-gradient(to right, #f6d365, #fda085);
+  color: #383838;
   text-align: center;
   border: solid #383838;
-  box-shadow: 0px 10px 20px rgba(253, 160, 133, 0.5); /* Farbiger Schatten */
+  box-shadow: 0px 10px 20px rgba(253, 160, 133, 0.5);
   padding: 10px;
   max-width: 300px;
   word-wrap: break-word;
   overflow: auto;
   min-height: 300px;
-  padding-top: 20px;
+  padding-top: 25px;
   margin-top: 25px;
 }
 
 #header {
-  font-family: "Roboto", sans-serif; /* Moderne Schriftart */
+  font-family: "Roboto", sans-serif;
   font-size: 3rem;
-  color: #007bff; /* Lebendiges Blau */
-  text-shadow: 2px 2px 4px rgba(255, 165, 0, 0.7); /* Orangener Textschatten */
+  color: #007bff;
+  text-shadow: 2px 2px 4px rgba(255, 165, 0, 0.7);
   font-weight: 700; /* Fettgedruckt */
   letter-spacing: 0.05em; /* Leichter Buchstabenabstand */
   text-align: center;
