@@ -1,5 +1,6 @@
 import { useState } from "react";
 import PropTypes from "prop-types";
+import gepard from "./assets/gepard.jpg";
 
 const Card = ({ kategorie, frage, richtigeAntwort }) => {
   const [antwortText, setAntwortText] = useState("");
@@ -19,7 +20,7 @@ const Card = ({ kategorie, frage, richtigeAntwort }) => {
 
   return (
     <div className="Profilkarte">
-      <img src="https://via.placeholder.com/150" alt="Bild"></img>
+      <img src={gepard} alt="Gepard"></img>
       <h2>Quizkarte</h2>
       <p>Kategorie: {kategorie}</p>
       <p>Frage: {frage}</p>
