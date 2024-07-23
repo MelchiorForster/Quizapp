@@ -7,7 +7,7 @@ const Card = ({ kategorie, frage, richtigeAntwort }) => {
   const handleSubmit = (event) => {
     event.preventDefault();
     const antwort = event.target.antwort.value.trim().toLowerCase();
-    const istRichtig = antwort === (richtigeAntwort || "").trim().toLowerCase();
+    const istRichtig = antwort === richtigeAntwort.trim().toLowerCase();
     console.log(istRichtig);
 
     setAntwortText(
@@ -24,7 +24,7 @@ const Card = ({ kategorie, frage, richtigeAntwort }) => {
       <p>Kategorie: {kategorie}</p>
       <p>Frage: {frage}</p>
       <form onSubmit={handleSubmit}>
-        <input id="antwort" name="antwort" />
+        <input id="antwort" name="antwort" maxLength="20" />
         <button type="submit">Absenden</button>
       </form>
       {antwortText && <p>{antwortText}</p>}
