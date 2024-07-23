@@ -1,18 +1,35 @@
 .Profilkarte {
-  background-color: yellowgreen;
-  color: rgb(216, 108, 36);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(
+    to right,
+    #f6d365,
+    #fda085
+  ); /* Farbverlauf von Gelb zu Orange */
+  color: #383838; /* Dunkelgrau */
   text-align: center;
-  border: solid black;
-  box-shadow: 10px 15px 5px;
+  border: solid #383838;
+  box-shadow: 0px 10px 20px rgba(253, 160, 133, 0.5); /* Farbiger Schatten */
   padding: 10px;
-
-  float: left;
+  max-width: 300px;
+  word-wrap: break-word;
+  overflow: auto;
+  min-height: 300px;
+  padding-top: 20px;
+  margin-top: 25px;
 }
 
-.h1 {
+#header {
+  font-family: "Roboto", sans-serif; /* Moderne Schriftart */
   font-size: 3rem;
-  color: black;
+  color: #007bff; /* Lebendiges Blau */
+  text-shadow: 2px 2px 4px rgba(255, 165, 0, 0.7); /* Orangener Textschatten */
+  font-weight: 700; /* Fettgedruckt */
+  letter-spacing: 0.05em; /* Leichter Buchstabenabstand */
   text-align: center;
+  margin-bottom: 20px; /* Abstand zum nächsten Element */
 }
 
 .Liste {
@@ -24,8 +41,6 @@
   max-height: 150px;
 }
 
-.Karte {
-}
 .Button {
   size: 2em;
 }

@@ -4,11 +4,11 @@ import Card from "./Card";
 function App() {
   return (
     <>
-      <h1>Fragerunde1</h1>
+      <h1 id="header">Fragerunde:</h1>
       <Card
         classname="Karte Tierreich"
         kategorie="Tierreich"
-        frage="Was ist das schnellte Säugetier?"
+        frage="Welches ist das schnellte Säugetier?"
       ></Card>
 
       <Card
@@ -22,6 +22,7 @@ function App() {
         kategorie="Wissenschaft"
         frage="Wie viele Aggregatzustände gibt es?"
       ></Card>
+      <br></br>
 
       <Button></Button>
     </>
